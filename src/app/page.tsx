@@ -1,3 +1,4 @@
+import Footer from "@/component/footer";
 import Header from "@/component/header";
 import { Box, Center, Flex, Grid, GridItem, List, ListItem, Motion ,Text,Image} from "@yamada-ui/react";
 
