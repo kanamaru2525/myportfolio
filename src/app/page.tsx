@@ -5,8 +5,7 @@ import { Box, Center, Flex, Grid, GridItem, List, ListItem, Motion ,Text,Image} 
 
 export default function Home() {
   return (
-    <Box _scrollbar={{display:"none"}} fontFamily="notojp">
-      <Header />
+    <Box _scrollbar={{display:"none"}}>
       <Flex h="100vh" bg="#B9C0CC" justifyContent="center" alignItems="center" flexDirection="column" display="flex">   
           <Motion fontSize="96px"fontWeight="black"color="white" borderBottom="solid">
             KANAMARU TAISEI
@@ -75,7 +74,7 @@ export default function Home() {
         </Box>  
         </Box>
         
-        <Footer />  
+        {/* <Footer />   */}
     </Box>
   );
 }
