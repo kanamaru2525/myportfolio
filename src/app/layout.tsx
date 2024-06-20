@@ -1,8 +1,10 @@
 "use client"
 import {Noto_Sans_JP} from "next/font/google";
 import { UIProvider } from "@yamada-ui/react";
-import type { Metadata } from "next";
+//import type { Metadata } from "next";
 import "./globals.css";
+import Header from "@/component/header";
+import Footer from "@/component/footer";
 
 
 const inter = Noto_Sans_JP({
@@ -24,7 +26,11 @@ export default function layout({
   return (
       <html lang="ja">
       <body className={inter.className}>
-        <UIProvider>{children}</UIProvider>
+        <UIProvider>
+          <Header/>
+          {children}
+          <Footer/>
+        </UIProvider>
       </body>
     </html>
   );
