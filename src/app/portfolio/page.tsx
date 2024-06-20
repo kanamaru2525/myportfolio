@@ -10,7 +10,7 @@ const Portfolio = () => {
     const {isOpen,onOpen,onClose} = useDisclosure();
   return (
     <div>
-      <Box _scrollbar={{display:"none"}} fontFamily="notojp">
+      <Box _scrollbar={{display:"none"}}>
       <Header />
       <Flex h="50vh" bg="#B9C0CC" justifyContent="center" alignItems="center" flexDirection="column" display="flex"> 
           <Text fontSize="96px"fontWeight="black"color="white" borderBottom="solid">
