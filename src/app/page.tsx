@@ -73,8 +73,6 @@ export default function Home() {
           </Center>
         </Box>  
         </Box>
-        
-        {/* <Footer />   */}
     </Box>
   );
 }
