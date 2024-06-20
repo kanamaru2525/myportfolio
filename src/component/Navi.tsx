@@ -1,23 +1,14 @@
-import { Box, Link } from "@yamada-ui/react"
-import { Noto_Sans_JP } from 'next/font/google'
+import { Link } from "@yamada-ui/react"
 
 interface Naviprps {
     href: string
     title: string
   }
 
-  const notojp = Noto_Sans_JP({
-    weight: ["400", "500"],
-    subsets: ["latin"],
-    variable: "--font-notojp",
-    display: "swap",
-  });
-
 const Navi = ({href,title}:Naviprps) => {
     return (
       
       <Link 
-        fontFamily="notojp" 
         fontWeight="black" 
         fontSize="40px" 
         color="#141414" 
