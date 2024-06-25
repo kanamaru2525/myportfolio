@@ -1,17 +1,14 @@
 import Footer from "@/component/footer";
 import Header from "@/component/header";
+import Heroview from "@/component/Heroview";
 import { Box, Center, Flex, Grid, GridItem, List, ListItem, Motion ,Text,Image} from "@yamada-ui/react";
 
 
 export default function Home() {
   return (
     <Box _scrollbar={{display:"none"}}>
-      <Flex h="100vh" bg="#B9C0CC" justifyContent="center" alignItems="center" flexDirection="column" display="flex">   
-          <Motion fontSize="96px"fontWeight="black"color="white" borderBottom="solid">
-            KANAMARU TAISEI
-          </Motion>
-          <Text fontSize="32px" color="white" margin="25px">A failure to become a creator</Text>
-      </Flex>
+      
+      <Heroview/>
 
       <Box h="10vh"justifyContent="center" alignItems="center"display="flex">
         <Text marginRight="25px"marginLeft="25px"paddingTop="5"fontSize="32px"fontWeight="black">Profile</Text>
@@ -23,7 +20,8 @@ export default function Home() {
               <ListItem>Name:金丸汰生</ListItem>
               <ListItem>Age:20</ListItem>
               <ListItem>Hobby:TRPG・アナログゲーム</ListItem>
-              <ListItem>From:Awaji</ListItem>
+              <ListItem>From:兵庫県 淡路</ListItem>
+              
             </List>
           </Flex>
         </Box>
