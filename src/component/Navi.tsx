@@ -10,7 +10,7 @@ const Navi = ({href,title}:Naviprps) => {
       
       <Link 
         fontWeight="black" 
-        fontSize="40px" 
+        fontSize="5xl" 
         color="#141414" 
         _hover={{ color: "#FF9567" }} 
         
