@@ -290,6 +290,39 @@
   resolved "https://registry.yarnpkg.com/@eslint/js/-/js-8.57.0.tgz#a5417ae8427873f1dd08b70b3574b453e67b5f7f"
   integrity sha512-Ys+3g2TaW7gADOJzPt83SJtCDhMjndcDMFVQ/Tj9iA1BfJzFKD9mAUXT3OenpuPHbI6P/myECxRJrofUsDx/5g==
 
+"@fortawesome/fontawesome-common-types@6.5.2":
+  version "6.5.2"
+  resolved "https://registry.yarnpkg.com/@fortawesome/fontawesome-common-types/-/fontawesome-common-types-6.5.2.tgz#eaf2f5699f73cef198454ebc0c414e3688898179"
+  integrity sha512-gBxPg3aVO6J0kpfHNILc+NMhXnqHumFxOmjYCFfOiLZfwhnnfhtsdA2hfJlDnj+8PjAs6kKQPenOTKj3Rf7zHw==
+
+"@fortawesome/fontawesome-svg-core@^6.5.2":
+  version "6.5.2"
+  resolved "https://registry.yarnpkg.com/@fortawesome/fontawesome-svg-core/-/fontawesome-svg-core-6.5.2.tgz#4b42de71e196039b0d5ccf88559b8044e3296c21"
+  integrity sha512-5CdaCBGl8Rh9ohNdxeeTMxIj8oc3KNBgIeLMvJosBMdslK/UnEB8rzyDRrbKdL1kDweqBPo4GT9wvnakHWucZw==
+  dependencies:
+    "@fortawesome/fontawesome-common-types" "6.5.2"
+
+"@fortawesome/free-regular-svg-icons@^6.5.2":
+  version "6.5.2"
+  resolved "https://registry.yarnpkg.com/@fortawesome/free-regular-svg-icons/-/free-regular-svg-icons-6.5.2.tgz#e8e04b4368d49920abdf1bacc63c67c870635222"
+  integrity sha512-iabw/f5f8Uy2nTRtJ13XZTS1O5+t+anvlamJ3zJGLEVE2pKsAWhPv2lq01uQlfgCX7VaveT3EVs515cCN9jRbw==
+  dependencies:
+    "@fortawesome/fontawesome-common-types" "6.5.2"
+
+"@fortawesome/free-solid-svg-icons@^6.5.2":
+  version "6.5.2"
+  resolved "https://registry.yarnpkg.com/@fortawesome/free-solid-svg-icons/-/free-solid-svg-icons-6.5.2.tgz#9b40b077b27400a5e9fcbf2d15b986c7be69e9ca"
+  integrity sha512-QWFZYXFE7O1Gr1dTIp+D6UcFUF0qElOnZptpi7PBUMylJh+vFmIedVe1Ir6RM1t2tEQLLSV1k7bR4o92M+uqlw==
+  dependencies:
+    "@fortawesome/fontawesome-common-types" "6.5.2"
+
+"@fortawesome/react-fontawesome@^0.2.0":
+  version "0.2.2"
+  resolved "https://registry.yarnpkg.com/@fortawesome/react-fontawesome/-/react-fontawesome-0.2.2.tgz#68b058f9132b46c8599875f6a636dad231af78d4"
+  integrity sha512-EnkrprPNqI6SXJl//m29hpaNzOp1bruISWaOiRtkMi/xSvHJlzc2j2JAYS7egxt/EbjSNV/k6Xy0AQI6vB2+1g==
+  dependencies:
+    prop-types "^15.8.1"
+
 "@humanwhocodes/config-array@^0.11.14":
   version "0.11.14"
   resolved "https://registry.yarnpkg.com/@humanwhocodes/config-array/-/config-array-0.11.14.tgz#d78e481a039f7566ecc9660b4ea7fe6b1fec442b"
@@ -693,6 +726,20 @@
     csstype "^3.1.3"
     react-fast-compare "^3.2.2"
 
+"@yamada-ui/core@1.8.0":
+  version "1.8.0"
+  resolved "https://registry.yarnpkg.com/@yamada-ui/core/-/core-1.8.0.tgz#b3f0b40b4d5e3719e7a9c0af8b1973077adc8f6e"
+  integrity sha512-pJSokXpcnyfkBqgaMmERbm/HU5j4zfYQ24bid7wyC+1MgW8zh6i6QXs5OXK+eDhmqvssOqXqN/Vb88Jpk3q0jA==
+  dependencies:
+    "@emotion/css" "^11.11.0"
+    "@emotion/react" "^11.11.0"
+    "@emotion/sheet" "^1.2.2"
+    "@emotion/styled" "^11.11.0"
+    "@yamada-ui/portal" "1.0.16"
+    "@yamada-ui/utils" "1.3.0"
+    csstype "^3.1.3"
+    react-fast-compare "^3.2.2"
+
 "@yamada-ui/editable@1.0.33":
   version "1.0.33"
   resolved "https://registry.yarnpkg.com/@yamada-ui/editable/-/editable-1.0.33.tgz#20680a92fb8ad5ee7071f11d9521afb5f7b87869"
@@ -732,6 +779,17 @@
     "@yamada-ui/utils" "1.2.1"
     react-focus-lock "^2.9.5"
 
+"@yamada-ui/fontawesome@^1.0.30":
+  version "1.0.30"
+  resolved "https://registry.yarnpkg.com/@yamada-ui/fontawesome/-/fontawesome-1.0.30.tgz#e8215337753b17a9e260a96497e412d268c078ad"
+  integrity sha512-nQ+U9ovBgAH+12zCluqn2blWSSWykQ+SXV0B/Xb6/VpKL8eRLc9bg0rbdSJu3Xim4DcCCtb+XiBrGwArXiUeqQ==
+  dependencies:
+    "@fortawesome/fontawesome-svg-core" "^6.5.2"
+    "@fortawesome/react-fontawesome" "^0.2.0"
+    "@yamada-ui/core" "1.8.0"
+    "@yamada-ui/icon" "1.0.29"
+    "@yamada-ui/utils" "1.3.0"
+
 "@yamada-ui/form-control@1.1.3":
   version "1.1.3"
   resolved "https://registry.yarnpkg.com/@yamada-ui/form-control/-/form-control-1.1.3.tgz#1df5c5a720d6dcec0286a2073f9e63f24e4c29e2"
@@ -757,6 +815,15 @@
     "@yamada-ui/core" "1.7.2"
     "@yamada-ui/use-token" "1.1.16"
     "@yamada-ui/utils" "1.2.1"
+
+"@yamada-ui/icon@1.0.29":
+  version "1.0.29"
+  resolved "https://registry.yarnpkg.com/@yamada-ui/icon/-/icon-1.0.29.tgz#b094e0fd5008c51f2578993c2740ad382a9047a6"
+  integrity sha512-HoCOqtMzWRBWvSAm9Hcq2bHHFL9Bmz2vCYpBfw8K9UAz/HNQX6xnNuz/Zr2NBAdNO0WEosGHDHSqQqAqmh1FDg==
+  dependencies:
+    "@yamada-ui/core" "1.8.0"
+    "@yamada-ui/use-token" "1.1.17"
+    "@yamada-ui/utils" "1.3.0"
 
 "@yamada-ui/image@1.0.29":
   version "1.0.29"
@@ -971,6 +1038,13 @@
   integrity sha512-+ZJuqIsunCM50NFIbZ1L1WyWnJ8NVVA8u6fd8wUBvAT/a1ku1h3bTskaPWzPYh5MIJgQ9QijQ+vPtN++8yFg8Q==
   dependencies:
     "@yamada-ui/utils" "1.2.1"
+
+"@yamada-ui/portal@1.0.16":
+  version "1.0.16"
+  resolved "https://registry.yarnpkg.com/@yamada-ui/portal/-/portal-1.0.16.tgz#c042018f0f6b193493c8891be26719782aedf121"
+  integrity sha512-cmJAvdB/kkhfr3sfmMnHoD2oC7NgI8B9QGZXgVkv8kWAUBtZiGbjaP6YSUfVIBYy2cnMYhnHXTKOkX8Fe0Ae5g==
+  dependencies:
+    "@yamada-ui/utils" "1.3.0"
 
 "@yamada-ui/progress@1.0.29":
   version "1.0.29"
@@ -1564,6 +1638,14 @@
     "@yamada-ui/core" "1.7.2"
     "@yamada-ui/utils" "1.2.1"
 
+"@yamada-ui/use-token@1.1.17":
+  version "1.1.17"
+  resolved "https://registry.yarnpkg.com/@yamada-ui/use-token/-/use-token-1.1.17.tgz#514c36e4a9327508f069fec4e05570426d335f86"
+  integrity sha512-OrZ+BLZRxBsSYpyO9RlvSP6hXUmsn8TP4OtXYwpwUn/YmqJH+wQX01xXZu4qG1i5p1TG0OuTT4K5nLTp54/09Q==
+  dependencies:
+    "@yamada-ui/core" "1.8.0"
+    "@yamada-ui/utils" "1.3.0"
+
 "@yamada-ui/use-value@1.1.16":
   version "1.1.16"
   resolved "https://registry.yarnpkg.com/@yamada-ui/use-value/-/use-value-1.1.16.tgz#3d2ebe61e137b2166c714472c4eac554819aa977"
@@ -1584,6 +1666,13 @@
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/@yamada-ui/utils/-/utils-1.2.1.tgz#73c32e4a0e469c132a062f99d66fa505747d0855"
   integrity sha512-ivCtgOo4X7gkE0rvCC7evtYZI9tj3Kptuy7hbv0horw4U8umIPLJt1t7u6esGioOXouO8mg+b3XyBRIsTRaaxg==
+  dependencies:
+    color2k "^2.0.2"
+
+"@yamada-ui/utils@1.3.0":
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/@yamada-ui/utils/-/utils-1.3.0.tgz#43bc24c20e5d9c3f8eda2dbcc194fbc026cce278"
+  integrity sha512-l/sX9GMfLfXipepFOy7s7Mlw1ElCKugA2lOe1cAksG5+nE0fh8QimaWqcwuuqTOZQpSo7NIpZKM0IBScSEXfTQ==
   dependencies:
     color2k "^2.0.2"
 
