@@ -26,8 +26,8 @@ const Header = () => {
             margin="1vh"
             fontSize="30px" 
             >
-                Menu
-        </MenuButton>
+             
+            </MenuButton>
 
         <MenuList>
             <MenuItem fontSize="30px" ><Link href="/">About</Link></MenuItem>
