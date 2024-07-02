@@ -13,13 +13,13 @@ export default function Home() {
       <Heroview/>
 
       <Box h="10vh"justifyContent="center" alignItems="center"display="flex">
-        <Text marginRight="25px"marginLeft="25px"paddingTop="5"fontSize="32px"fontWeight="black">Profile</Text>
+        <Text marginRight="25px"marginLeft="25px"fontSize="6xl"fontWeight="black">Profile</Text>
       </Box>
         <Profile/>
         
           <Box h="full" bg="#2F4A78">
             <Box h="10vh"justifyContent="center" alignItems="center"display="flex">
-              <Text marginRight="25px"marginLeft="25px"paddingTop="5"fontSize="32px"fontWeight="black"color={"white"}>Skill</Text>
+              <Text marginRight="25px"marginLeft="25px"paddingTop="5"fontSize="6xl"fontWeight="black"color={"white"}>Skill</Text>
             </Box>
             <Box>
               <Center>
